@@ -1,0 +1,24 @@
+@import '../colors.scss';
+@import '../dynamicSizes.scss';
+
+.statistics {
+    padding: $bodyPaddingTBSize $bodyPaddingRLSize;
+    margin-bottom: 20px;
+}
+
+.statistics__items {
+    margin-top: 60px;
+    display: grid;
+    grid-template-columns: [col] 1fr [col] 1fr auto;
+    grid-row-gap: 30px;
+}
+
+.statistics__item-title {
+    font-size: 18px;
+    color: $dark;
+}
+
+.statistics__item-subtitle {
+    font-size: 18px;
+    color: $gray;
+}

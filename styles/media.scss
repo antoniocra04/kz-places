@@ -1,0 +1,40 @@
+@media (max-width: 1000px) {
+    .header__input,
+    .search {
+        display: none;
+    }
+
+    .statistics__items {
+        grid-template-columns: [col] 1fr auto;
+    }
+}
+
+@media (max-width: 900px) {
+    .slice-section__img-section {
+        display: none;
+    }
+
+    .slice-section__text-section {
+        width: 100vw;
+    }
+}
+
+@media (max-width: 600px) {
+    .header__burger-menu {
+        display: block;
+    }
+
+    .header__links {
+        display: none;
+    }
+
+    .statistics__items {
+        grid-template-columns: auto;
+    }
+}
+
+@media (max-width: 650px) {
+    .list {
+        justify-content: center;
+    }
+}

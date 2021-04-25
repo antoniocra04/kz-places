@@ -1,0 +1,11 @@
+@import '../colors.scss';
+
+.place__info-text {
+    font-size: 18px;
+    color: $dark;
+}
+
+.place__info-subtext {
+    font-size: 18px;
+    color: $gray;
+}
