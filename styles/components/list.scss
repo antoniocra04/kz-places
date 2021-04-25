@@ -18,6 +18,7 @@
     padding: 15px;
     transition: all 0.3s ease;
     border: 1px $white solid;
+    cursor: pointer;
 
     &:hover {
         box-shadow: 0px 5px 20px rgba(255, 195, 25, 0.15);
